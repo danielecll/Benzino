@@ -21,8 +21,8 @@ def check(path: str):
         update()
 
 def update():
-    urlprice = "https://www.mimit.gov.it/images/exportCSV/prezzo_alle_8.csv"
-    urlanagrafico = "https://www.mimit.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv"
+    urlprice = "url"
+    urlanagrafico = "url
 
 
     dfa = pd.read_csv(urlanagrafico, skiprows=1, sep=";", on_bad_lines='warn')
